@@ -8,7 +8,7 @@ export default defineConfig({
 		port: 3000,
 		proxy: {
 			"/api": {
-				target: "https://withyou3-production.up.railway.app/",
+				target: "https://withyou3-production.up.railway.app",
 			},
 		},
 	},
